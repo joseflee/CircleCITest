@@ -1,6 +1,7 @@
 ssh ubuntu@54.211.116.244 <<EOF
 cd ~/CircleCITest
 cd circle-ci-test
+git pull
 npm install
 npm run pm
 exit
